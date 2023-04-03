@@ -15,12 +15,6 @@
       "Surrim\\CssGridConfig\\": "src"
     }
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/surrim/css-lib"
-    }
-  ],
   "minimum-stability": "stable",
   "require": {
     "php": ">=8.1",
