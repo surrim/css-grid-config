@@ -108,9 +108,10 @@ class CssGrid {
           }
         }
       }
-      if (!$usedState && $minWidth === 0) {
+      if (!$usedState) {
         $this->addCssDisplayNone($css, $minWidth, null, $regionCssSelector);
-      } else {
+      }
+      if ($usedState || $minWidth !== 0) {
         $addUsedRegionCssClosure($css, $regionCssSelector);
       }
     }
