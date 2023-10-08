@@ -1,0 +1,16 @@
+{
+    "minimum-stability": "dev",
+    "require": {
+        "surrim/css-grid-config": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:surrim/css-grid-config.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "git@github.com:surrim/css-lib.git"
+        }
+    ]
+}
